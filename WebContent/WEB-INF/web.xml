@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
+  <servlet>
+    <description></description>
+    <display-name>itenscompra</display-name>
+    <servlet-name>itenscompra</servlet-name>
+    <jsp-file>/sistema_estoque/itenscompra.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>itenscompra</servlet-name>
+    <url-pattern>/itenscompra</url-pattern>
+  </servlet-mapping>
+  <display-name>Sistema-estoque-2020</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <servlet-name>turus</servlet-name>
+    <servlet-class>turus</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>turus</servlet-name>
+    <url-pattern>/turus</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>compras</display-name>
+    <servlet-name>compras</servlet-name>
+    <jsp-file>/sistema_estoque/compras.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>compras</servlet-name>
+    <url-pattern>/compras</url-pattern>
+  </servlet-mapping>
+</web-app>
